@@ -11,3 +11,7 @@
   background-color: var(--lumo-base-color);
   box-shadow: var(--lumo-box-shadow-s);
 }
+
+:host([theme~="hide-filter-header-row"]) thead :nth-child(2)[part="row"] {
+	display: none;
+}
